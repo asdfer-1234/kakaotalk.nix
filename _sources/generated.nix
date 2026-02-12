@@ -6,7 +6,7 @@
     version = "0.0.0";
     src = fetchurl {
       url = "https://app-pc.kakaocdn.net/talk/win32/KakaoTalk_Setup.exe";
-      sha256 = "sha256-EEePn6PZPUqc4w9KojHEw9aI+s4WifKdKyYZHhweiMU=";
+      sha256 = "sha256-R1/bSdG81VOMYuXbYIQPUafAd3FC3+OROcu46aAVeog=";
     };
   };
   kakaotalk-icon = {

@@ -1,6 +1,6 @@
 {
     "kakaotalk-exe": {
-        "cargoLock": null,
+        "cargoLocks": null,
         "date": null,
         "extract": null,
         "name": "kakaotalk-exe",
@@ -8,14 +8,14 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-EEePn6PZPUqc4w9KojHEw9aI+s4WifKdKyYZHhweiMU=",
+            "sha256": "sha256-R1/bSdG81VOMYuXbYIQPUafAd3FC3+OROcu46aAVeog=",
             "type": "url",
             "url": "https://app-pc.kakaocdn.net/talk/win32/KakaoTalk_Setup.exe"
         },
         "version": "0.0.0"
     },
     "kakaotalk-icon": {
-        "cargoLock": null,
+        "cargoLocks": null,
         "date": null,
         "extract": null,
         "name": "kakaotalk-icon",
