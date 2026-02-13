@@ -15,11 +15,11 @@ WINETRICKS="@winetricks@/bin/winetricks"
 INSTALLER="@out@/share/kakaotalk/KakaoTalk_Setup.exe"
 
 PREFIX="${XDG_DATA_HOME:-$HOME/.local/share}/kakaotalk"
-export WINEPREFIX="$PREFIX" WINEARCH=win32
+export WINEPREFIX="$PREFIX"
 
 LOCKFILE="$PREFIX/.kakaotalk.lock"
-KAKAO_EXE="C:\\Program Files\\Kakao\\KakaoTalk\\KakaoTalk.exe"
-KAKAO_EXE_UNIX="$PREFIX/drive_c/Program Files/Kakao/KakaoTalk/KakaoTalk.exe"
+KAKAO_EXE="C:\\Program Files (x86)\\Kakao\\KakaoTalk\\KakaoTalk.exe"
+KAKAO_EXE_UNIX="$PREFIX/drive_c/Program Files (x86)/Kakao/KakaoTalk/KakaoTalk.exe"
 
 HAS_XDOTOOL=0; HAS_WMCTRL=0; HAS_XPROP=0
 command -v xdotool >/dev/null 2>&1 && HAS_XDOTOOL=1
