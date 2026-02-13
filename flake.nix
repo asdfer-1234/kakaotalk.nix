@@ -71,7 +71,7 @@
           src = sources.kakaotalk-exe.src;
           dontUnpack = true;
           nativeBuildInputs = [
-            pkgs.wineWowPackages.stable
+            pkgs.wineWow64Packages.stable
             pkgs.winetricks
           ];
           propagatedBuildInputs = [
@@ -85,8 +85,8 @@
             install -Dm755 ${./wrapper.sh} $out/bin/kakaotalk
             substituteInPlace $out/bin/kakaotalk \
               --replace-fail "@bash@" "${pkgs.bash}" \
-              --replace-fail "@wineBin@" "${pkgs.wineWowPackages.stable}/bin" \
-              --replace-fail "@wineLib@" "${pkgs.wineWowPackages.stable}/lib" \
+              --replace-fail "@wineBin@" "${pkgs.wineWow64Packages.stable}/bin" \
+              --replace-fail "@wineLib@" "${pkgs.wineWow64Packages.stable}/lib" \
               --replace-fail "@winetricks@" "${pkgs.winetricks}" \
               --replace-fail "@out@" "$out" \
               --replace-fail "@westernFonts@" '${quoteList westernFonts}' \
